@@ -1,0 +1,21 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li {
+  float: right;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+ul {
+  display: flex;
+}
+
