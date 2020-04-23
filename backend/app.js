@@ -8,7 +8,7 @@ const userRoutes = require('./routes/user');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://gaurav:Shanu2607@@cluster0-n4ijm.mongodb.net/node-angular?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb+srv://gaurav:Shanu2607@@cluster0-n4ijm.mongodb.net/node-angular', {useNewUrlParser: true, useUnifiedTopology: true})
 .then(()=>{
   console.log('Connected Successfully')
 })
